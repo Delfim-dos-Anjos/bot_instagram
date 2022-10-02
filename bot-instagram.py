@@ -13,7 +13,7 @@ sleep(3)
 usuario = webdriver.find_element_by_name('usernanme')
 usuario.send_keys('delfim_dos_anjos')
 senha = webdriver.find_element_by_name('password')
-senha.send_keys('Mufekedi12008')
+senha.send_keys('kkkkkkkk...')
 
 button_login = webdriver.find_element_by_css_selector(
     '#loginForm > div > div:nth-child(3)')
@@ -38,7 +38,7 @@ Comments = 0
 for hashtag in hashtag_list:
     tag = +1
     webdriver.get('https://www.instagram.com/explore/tags/' +
-                  hashtags_list[tag] + '/')
+                  hashtag_list[tag] + '/')
     sleep(3)
     primeira_thumb = webdriver.find_element_by_xpath(
         '/html/body/div[1]/section/main/article/div[1]/div/div/div[1]/div[1]/a/div/div[2]')
